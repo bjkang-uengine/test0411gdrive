@@ -9,6 +9,6 @@ public class VideoProcessed extends AbstractEvent {
 
     private Long id;
     private Long fileid;
-    private Long videourl;
+    private String videourl;
     private String userid;
 }

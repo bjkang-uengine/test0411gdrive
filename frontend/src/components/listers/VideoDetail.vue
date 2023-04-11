@@ -9,7 +9,7 @@
                 <Number label="Fileid" v-model="item.fileid" :editMode="editMode" @change="change" />
             </div>
             <div>
-                <Number label="Videourl" v-model="item.videourl" :editMode="editMode" @change="change" />
+                <String label="Videourl" v-model="item.videourl" :editMode="editMode" @change="change" />
             </div>
             <div>
                 <String label="Userid" v-model="item.userid" :editMode="editMode" @change="change" />

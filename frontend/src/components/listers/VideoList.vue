@@ -102,7 +102,7 @@
             
             this.newValue = {
                 'fileid': 0,
-                'videourl': 0,
+                'videourl': '',
                 'userid': '',
             }
         },

@@ -18,7 +18,7 @@
 
         <v-card-text>
             <Number label="Fileid" v-model="value.fileid" :editMode="editMode"/>
-            <Number label="Videourl" v-model="value.videourl" :editMode="editMode"/>
+            <String label="Videourl" v-model="value.videourl" :editMode="editMode"/>
             <String label="Userid" v-model="value.userid" :editMode="editMode"/>
         </v-card-text>
 
